@@ -1,0 +1,188 @@
+.header {
+  background-color: #004D40;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+.chair-allcard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .chair-card {
+    width: calc(33.33% - 20px); /* تحديد عرض كل كرسي بناءً على النسبة المئوية للعرض */
+    margin-bottom: 20px; /* مسافة بين الصفوف */
+    border-radius: 10px;
+    box-shadow: 0 4px 18px rgba(110, 108, 108, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .chair-card:hover {
+    transform: scale(1.03); /* تكبير الكرسي عند التحويم */
+  }
+  
+  .chair-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .chair-card h1, .chair-card h3, .chair-card span {
+    padding: 20px 25px 5px;
+  }
+  
+  .chair-card h1 {
+    font-weight: 600;
+  }
+  
+  .chair-card h3, .chair-card span {
+    font-size: 15px;
+  }
+  
+  .chair-card i {
+    color: #F5F5DC;
+    padding-right: 10px;
+  }
+  
+  .chair-card span {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .chair-card button {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F5F5DC;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chair-card button:hover {
+    background-color: #ffffff;
+    color: #F5F5DC;
+    border: #F5F5DC 2px solid;
+  }
+  footer {
+    background-color: #004D40; /* Change to your desired color */
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input[type="email"], 
+.newsletter input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796B; 
+    color: white;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #004D40; 
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+    color: white;
+    font-size: 24px; 
+}
+
+.social-media a:hover {
+    color: #00796B; 
+}
