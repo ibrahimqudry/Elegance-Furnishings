@@ -1,236 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- ==================== HEAD SECTION ==================== -->
 
-<!-- ==================== HEAD SECTION ==================== -->
+  <head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <!-- Meta tags for character encoding and responsive design -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title and meta description for SEO -->
+    <title>Shop Our Collection | Elegance Furnishings</title>
+    <meta
+      name="description"
+      content="Browse our premium furniture collection featuring elegant chairs, tables, and home decor."
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
 
-  <!-- Page title and meta description for SEO -->
-  <title>Shop Our Collection | Elegance Furnishings</title>
-  <meta name="description"
-    content="Browse our premium furniture collection featuring elegant chairs, tables, and home decor.">
+  <body>
+    <!-- ==================== HEADER & NAVIGATION ==================== -->
+    <header class="header">
+      <nav class="nav">
+        <!-- Main logo linking to homepage -->
+        <a href="../index.html" class="logo">Elegance Furnishings</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <!-- Primary navigation menu -->
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="gallery.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <link rel="stylesheet" href="../assets/css/style.css">
-  <!-- Custom CSS for gallery/shop page -->
-  <link rel="stylesheet" href="../assets/css/gallery.css">
-</head>
-
-<body>
-
-  <!-- ==================== HEADER & NAVIGATION ==================== -->
-  <header class="header">
-    <nav class="nav">
-      <!-- Main logo linking to homepage -->
-      <a href="../index.html" class="logo">Elegance Furnishings</a>
-
-      <!-- Primary navigation menu -->
-      <ul class="nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="gallery.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-
-  <!-- ==================== PRODUCT GALLERY SECTION ==================== -->
-  <section class="end-section">
-    <!-- Add-to-cart form targeting payment page -->
-    <form action="payment-form.html" method="GET">
-
-      <div class="chair-allcard">
-        <div class="chair-card">
-          <img src="../assets/img/chair-1.jpg" alt="Modern beige accent chair with wooden legs">
-          <h1>the laid back</h1>
-          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
-          <span>77 $</span>
-          <button type="submit" formtarget="_blank">add to cart</button>
-        </div>
-
-        <div class="chair-card">
-          <img src="../assets/img/chair-3.jpg" alt="Contemporary gray lounge chair with metal frame">
-          <h1>the laid back</h1>
-          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
-          <span>90 $</span>
-          <button type="submit" formtarget="_blank">add to cart</button>
-        </div>
-
-        <div class="chair-card">
-          <img src="../assets/img/chair-2.jpg" alt="Elegant brown leather armchair with wooden accents">
-          <h1>the laid back</h1>
-          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
-          <span>75 $</span>
-          <button type="submit" formtarget="_blank">add to cart</button>
-        </div>
-
-        <div class="chair-card">
-          <img src="../assets/img/chair-1.jpg" alt="Modern beige accent chair with wooden legs">
-          <h1>the laid back</h1>
-          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
-          <span>39 $</span>
-          <button type="submit" formtarget="_blank">add to cart</button>
-        </div>
-
-        <div class="chair-card">
-          <img src="../assets/img/chair-3.jpg" alt="Contemporary gray lounge chair with metal frame">
-          <h1>the laid back</h1>
-          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
-          <span>50 $</span>
-          <button type="submit" formtarget="_blank">add to cart</button>
-        </div>
-        <div class="chair-card">
-          <img src="../assets/img/chair-2.jpg" alt="Elegant brown leather armchair with wooden accents">
-          <h1>the laid back</h1>
-          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
-          <span>105 $</span>
-          <button type="submit" formtarget="_blank">add to cart</button>
-        </div>
-      </div>
-      <section class="end-section">
-        <h1>Our Best Chairs</h1><br>
+    <!-- ==================== PRODUCT GALLERY SECTION ==================== -->
+    <section class="end-section">
+      <!-- Add-to-cart form targeting payment page -->
+      <form action="payment-form.html" method="GET">
         <div class="chair-allcard">
           <div class="chair-card">
-            <!-- product image references -->
-            <img src="../assets/img/chair-1.jpg" alt="Modern beige accent chair with wooden legs">
-            <h1>the laid back</h1>
-            <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-            <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
+            <img
+              src="../assets/img/chair-1.jpg"
+              alt="Modern beige accent chair with wooden legs"
+            />
+            <h1>The Laid Back</h1>
+            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather</h3>
             <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
             <span>77 $</span>
             <button type="submit" formtarget="_blank">add to cart</button>
           </div>
+
           <div class="chair-card">
-            <img src="../assets/img/chair-3.jpg" alt="Contemporary gray lounge chair with metal frame">
-            <h1>the laid back</h1>
-            <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
+            <img
+              src="../assets/img/chair-3.jpg"
+              alt="Contemporary gray lounge chair with metal frame"
+            />
+            <h1>The Laid Back</h1>
             <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
             <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
             <span>90 $</span>
             <button type="submit" formtarget="_blank">add to cart</button>
           </div>
+
           <div class="chair-card">
-            <img src="../assets/img/chair-2.jpg" alt="Elegant brown leather armchair with wooden accents">
-            <h1>the laid back</h1>
-            <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
+            <img
+              src="../assets/img/chair-2.jpg"
+              alt="Elegant brown leather armchair with wooden accents"
+            />
+            <h1>The Laid Back</h1>
             <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-            <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
+            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather</h3>
             <span>75 $</span>
             <button type="submit" formtarget="_blank">add to cart</button>
           </div>
+
           <div class="chair-card">
-            <img src="../assets/img/chair-1.jpg" alt="Modern beige accent chair with wooden legs">
-            <h1>the laid back</h1>
+            <img
+              src="../assets/img/chair-1.jpg"
+              alt="Modern beige accent chair with wooden legs"
+            />
+            <h1>The Laid Back</h1>
             <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-            <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
             <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
             <span>39 $</span>
             <button type="submit" formtarget="_blank">add to cart</button>
           </div>
+
           <div class="chair-card">
-            <img src="../assets/img/chair-3.jpg" alt="Contemporary gray lounge chair with metal frame">
-            <h1>the laid back</h1>
+            <img
+              src="../assets/img/chair-3.jpg"
+              alt="Contemporary gray lounge chair with metal frame"
+            />
+            <h1>The Laid Back</h1>
             <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
-            <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-            <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
+            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather</h3>
             <span>50 $</span>
             <button type="submit" formtarget="_blank">add to cart</button>
           </div>
           <div class="chair-card">
-            <img src="../assets/img/chair-2.jpg" alt="Elegant brown leather armchair with wooden accents">
-            <h1>the laid back</h1>
-            <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
+            <img
+              src="../assets/img/chair-2.jpg"
+              alt="Elegant brown leather armchair with wooden accents"
+            />
+            <h1>The Laid Back</h1>
             <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
-            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather </h3>
-            <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
+            <h3><i class="fa-solid fa-earth-americas"></i> vegan leather</h3>
             <span>105 $</span>
             <button type="submit" formtarget="_blank">add to cart</button>
           </div>
-      </section>
-    </form>
-  </section>
+        </div>
 
+        <h1>Best Products</h1>
+        <br />
+        <div class="chair-card">
+          <!-- product image references -->
+          <img
+            src="../assets/img/chair-1.jpg"
+            alt="Modern beige accent chair with wooden legs"
+          />
+          <h1>The Laid Back</h1>
+          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
+          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
+          <span>77 $</span>
+          <button type="submit" formtarget="_blank">add to cart</button>
+        </div>
+        <div class="chair-card">
+          <img
+            src="../assets/img/chair-3.jpg"
+            alt="Contemporary gray lounge chair with metal frame"
+          />
+          <h1>The Laid Back</h1>
+          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
+          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather</h3>
+          <span>90 $</span>
+          <button type="submit" formtarget="_blank">add to cart</button>
+        </div>
+        <div class="chair-card">
+          <img
+            src="../assets/img/chair-2.jpg"
+            alt="Elegant brown leather armchair with wooden accents"
+          />
+          <h1>The Laid Back</h1>
+          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
+          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather</h3>
+          <span>75 $</span>
+          <button type="submit" formtarget="_blank">add to cart</button>
+        </div>
+        <div class="chair-card">
+          <img
+            src="../assets/img/chair-1.jpg"
+            alt="Modern beige accent chair with wooden legs"
+          />
+          <h1>The Laid Back</h1>
+          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
+          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
+          <span>39 $</span>
+          <button type="submit" formtarget="_blank">add to cart</button>
+        </div>
+        <div class="chair-card">
+          <img
+            src="../assets/img/chair-3.jpg"
+            alt="Contemporary gray lounge chair with metal frame"
+          />
+          <h1>The Laid Back</h1>
+          <h3><i class="fa-regular fa-clock"></i> comfortable for 4h</h3>
+          <h3><i class="fa-solid fa-earth-americas"></i> vegan leather</h3>
+          <span>50 $</span>
+          <button type="submit" formtarget="_blank">add to cart</button>
+        </div>
+        <div class="chair-card">
+          <img
+            src="../assets/img/chair-2.jpg"
+            alt="Elegant brown leather armchair with wooden accents"
+          />
+          <h1>The Laid Back</h1>
+          <h3><i class="fa-regular fa-star"></i> leisure and relaxing</h3>
+          <h3><i class="fa-solid fa-cube"></i> weighs 16kg</h3>
+          <span>105 $</span>
+          <button type="submit" formtarget="_blank">add to cart</button>
+        </div>
+      </form>
+    </section>
 
-
-
-  <footer>
-    <div class="footer-container">
-      <div class="footer-column">
-        <h3>COMPANY</h3>
-        <ul>
-          <li><a href="about-us.html">about us</a></li>
-          <li><a href="contact.html">contact with us</a></li>
-          <li><a href="#">Signature Design</a></li>
-          <li><a href="#">Research Center</a></li>
-        </ul>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>COMPANY</h3>
+          <ul>
+            <li><a href="about-us.html">about us</a></li>
+            <li><a href="contact.html">contact with us</a></li>
+            <li><a href="#">Signature Design</a></li>
+            <li><a href="#">Research Center</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>HELP</h3>
+          <ul>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">RMA</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>POLICIES</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Legal Notice</a></li>
+            <li><a href="#">Policy of Cookies</a></li>
+            <li><a href="#">Ethical Channel</a></li>
+          </ul>
+        </div>
+        <div class="footer-column newsletter">
+          <h3>JOIN OUR NEWSLETTER</h3>
+          <form action="#">
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Name" required />
+            <button type="submit">Subscribe</button>
+            <div class="terms">
+              <input type="checkbox" id="terms" required />
+              <label for="terms"
+                >I have read and accept the terms and conditions</label
+              >
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="footer-column">
-        <h3>HELP</h3>
-        <ul>
-          <li><a href="#">LOGIN</a></li>
-          <li><a href="#">RMA</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
       </div>
-      <div class="footer-column">
-        <h3>POLICIES</h3>
-        <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Legal Notice</a></li>
-          <li><a href="#">Policy of Cookies</a></li>
-          <li><a href="#">Ethical Channel</a></li>
-        </ul>
-      </div>
-      <div class="footer-column newsletter">
-        <h3>JOIN OUR NEWSLETTER</h3>
-        <form action="#">
-          <input type="email" placeholder="Email" required>
-          <input type="text" placeholder="Name" required>
-          <button type="submit">Subscribe</button>
-          <div class="terms">
-            <input type="checkbox" id="terms" required>
-            <label for="terms">I have read and accept the terms and conditions</label>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="social-media">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-    </div>
-  </footer>
+    </footer>
 
-
-
-
-</body>
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const toggle = document.querySelector(".menu-toggle");
+        const links = document.querySelector(".nav-links");
+        if (toggle && links) {
+          toggle.addEventListener("click", function () {
+            links.classList.toggle("active");
+          });
+        }
+      });
+    </script>
+  </body>
 </html>

@@ -77,22 +77,26 @@ Elegance-Furnishings/
 ## 🔧 Getting Started
 
 ### Prerequisites
+
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 - Code editor (VS Code recommended)
 - Git for version control
 
 ### Cloning the Project
+
 ```bash
 git clone https://github.com/your-username/Elegance-Furnishings.git
 cd Elegance-Furnishings
 ```
 
 ### Opening the Project
+
 1. Open `index.html` in your web browser to view the homepage
 2. Navigate through the pages using the menu links
 3. All assets are locally referenced for offline development
 
 ### Development
+
 - Edit HTML files in the root and pages directories
 - Modify styles in the assets/css directory
 - Add images to assets/img directory
@@ -102,7 +106,7 @@ cd Elegance-Furnishings
 
 - **Global styles**: `assets/css/style.css`
 - **Page-specific styles**: `assets/css/<page-name>.css`
-- **Image references**: 
+- **Image references**:
   - From root: `./assets/img/filename.ext`
   - From pages: `../assets/img/filename.ext`
 - **Consistent naming**: kebab-case for all files
@@ -152,4 +156,3 @@ For support and questions, please open an issue on GitHub or contact the develop
 ---
 
 Built with ❤️ for elegant furniture shopping experiences
-

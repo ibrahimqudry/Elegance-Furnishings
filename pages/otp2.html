@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Verification | Elegance Furnishings</title>
-    <meta name="description" content="Enter your verification code to complete your Elegance Furnishings purchase.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/css/otp2.css">
-</head>
+    <meta
+      name="description"
+      content="Enter your verification code to complete your Elegance Furnishings purchase."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/css/otp2.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Header -->
     <header class="header">
-        <nav class="nav">
+      <nav class="nav">
             <!-- header links -->
             <a href="../index.html" class="logo">Elegance Furnishings</a>
+            <button class="menu-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about-us.html">about us </a></li>
@@ -27,85 +39,91 @@
     </header>
     <!-- end Header -->
 
-
     <!-- main -->
     <div class="main">
+      <h1>Verification Code</h1>
+      <p>We have sent the verification code to your email address</p>
+      <br />
+      <form action="otp3.html">
+        <div class="inputs">
+          <input type="text" maxlength="1" required />
+          <input type="text" maxlength="1" required />
+          <input type="text" maxlength="1" required />
+          <input type="text" maxlength="1" required />
+        </div>
+        <br />
 
-        <h1>Verification Code</h1>
-        <p>We have sent the verification code to your email address</p><br>
-        <form action="otp3.html">
-
-            <div class="inputs">
-                <input type="text" maxlength="1" required>
-                <input type="text" maxlength="1" required>
-                <input type="text" maxlength="1" required>
-                <input type="text" maxlength="1" required>
-            </div><br>
-
-            <button type="submit">Continue</button>
-
-        </form><br>
-        Do not Recive OTP ? <a href="otp.html">Send OTP</a><br>
-
-
-
-
+        <button type="submit">Continue</button>
+      </form>
+      <br />
+      Do not Recive OTP ? <a href="otp.html">Send OTP</a><br />
     </div>
     <!-- end main -->
 
-
-
     <!-- Footer -->
     <footer>
-        <div class="footer-container">
-            <div class="footer-column">
-                <h3>COMPANY</h3>
-                <ul>
-                    <li><a href="./pages/about-us.html">about us </a></li>
-                    <li><a href="./pages/contact.html">contact with us</a></li>
-                    <li><a href="#">Signature Design</a></li>
-                    <li><a href="#">Research Center</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>HELP</h3>
-                <ul>
-                    <li><a href="#">LOGIN</a></li>
-                    <li><a href="#">RMA</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>POLICIES</h3>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Legal Notice</a></li>
-                    <li><a href="#">Policy of Cookies</a></li>
-                    <li><a href="#">Ethical Channel</a></li>
-                </ul>
-            </div>
-            <div class="footer-column newsletter">
-                <h3>JOIN OUR NEWSLETTER</h3>
-                <form action="#">
-                    <input type="email" placeholder="Email" required>
-                    <input type="text" placeholder="Name" required>
-                    <button type="submit">Subscribe</button>
-                    <div class="terms">
-                        <input type="checkbox" id="terms" required>
-                        <label for="terms">I have read and accept the terms and conditions</label>
-                    </div>
-                </form>
-            </div>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>COMPANY</h3>
+          <ul>
+            <li><a href="./pages/about-us.html">about us </a></li>
+            <li><a href="./pages/contact.html">contact with us</a></li>
+            <li><a href="#">Signature Design</a></li>
+            <li><a href="#">Research Center</a></li>
+          </ul>
         </div>
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
+        <div class="footer-column">
+          <h3>HELP</h3>
+          <ul>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">RMA</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
+        <div class="footer-column">
+          <h3>POLICIES</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Legal Notice</a></li>
+            <li><a href="#">Policy of Cookies</a></li>
+            <li><a href="#">Ethical Channel</a></li>
+          </ul>
+        </div>
+        <div class="footer-column newsletter">
+          <h3>JOIN OUR NEWSLETTER</h3>
+          <form action="#">
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Name" required />
+            <button type="submit">Subscribe</button>
+            <div class="terms">
+              <input type="checkbox" id="terms" required />
+              <label for="terms"
+                >I have read and accept the terms and conditions</label
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
     </footer>
     <!-- end Footer -->
 
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const toggle = document.querySelector('.menu-toggle');
+        const links = document.querySelector('.nav-links');
+        if (toggle && links) {
+          toggle.addEventListener('click', function () {
+            links.classList.toggle('active');
+          });
+        }
+      });
+    </script>
 
 </body>
 
