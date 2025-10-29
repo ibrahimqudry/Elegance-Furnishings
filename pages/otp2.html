@@ -19,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/otp2.css" />
   </head>
 
@@ -26,21 +27,23 @@
     <!-- Header -->
     <header class="header">
       <nav class="nav">
-            <!-- header links -->
-            <a href="../index.html" class="logo">Elegance Furnishings</a>
-            <button class="menu-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about-us.html">about us </a></li>
-                <li><a href="gallery.html">Shop</a></li>
-                <li><a href="contact.html">contact with us</a></li>
-            </ul>
-        </nav>
+        <!-- header links -->
+        <a href="../index.html" class="logo">Elegance Furnishings</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="gallery.html">Shop</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- end Header -->
 
     <!-- main -->
-    <div class="main">
+    <main>
       <h1>Verification Code</h1>
       <p>We have sent the verification code to your email address</p>
       <br />
@@ -57,7 +60,7 @@
       </form>
       <br />
       Do not Recive OTP ? <a href="otp.html">Send OTP</a><br />
-    </div>
+    </main>
     <!-- end main -->
 
     <!-- Footer -->
@@ -113,18 +116,6 @@
     </footer>
     <!-- end Footer -->
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const toggle = document.querySelector('.menu-toggle');
-        const links = document.querySelector('.nav-links');
-        if (toggle && links) {
-          toggle.addEventListener('click', function () {
-            links.classList.toggle('active');
-          });
-        }
-      });
-    </script>
-
-</body>
-
+    <script src="../assets/js/main.js"></script>
+  </body>
 </html>

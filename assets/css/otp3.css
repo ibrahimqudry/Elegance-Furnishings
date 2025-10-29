@@ -9,50 +9,18 @@ body {
   justify-content: space-between;
   font-family: "Inter", sans-serif;
 }
-/* Header */
-.header {
-  background-color: #004d40;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  font-size: 24px;
-  color: white;
-  text-decoration: none;
-}
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.nav-links li a:hover {
-  text-decoration: underline;
-}
-/* end Header */
 
 /* main */
-.main {
+main {
+  margin: 20px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   border: red solid 3px;
-  width: 30%;
+  width: 100%;
   align-self: center;
-  border-radius: 150px;
+  border-radius: 5%;
   height: 60vh;
   padding: 50px;
 }
@@ -66,6 +34,7 @@ img {
 h1,
 p {
   color: #004d40;
+  text-align: center;
 }
 input {
   padding: 10px;
@@ -82,7 +51,7 @@ span {
   align-self: center;
   color: red;
 }
-button {
+main button {
   padding: 10px;
   border-radius: 25px;
   width: 200%;
@@ -94,113 +63,15 @@ button {
 }
 /* end main */
 
-/* Footer */
-
-footer {
-  background-color: #004d40; /* Change to your desired color */
-  color: white;
-  padding: 40px 20px;
-  text-align: left;
-  margin-top: 50px;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.footer-column {
-  flex: 1;
-  margin: 10px;
-  min-width: 200px;
-}
-
-.footer-column h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-column ul li {
-  margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-column ul li a:hover {
-  text-decoration: underline;
-}
-
-.newsletter form {
-  display: flex;
-  flex-direction: column;
-}
-
-.newsletter input[type="email"],
-.newsletter input[type="text"] {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.newsletter button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #00796b;
-  color: white;
-  cursor: pointer;
-}
-
-.newsletter button:hover {
-  background-color: #004d40;
-}
-
-.terms {
-  display: flex;
-  align-items: center;
-}
-
-.terms input[type="checkbox"] {
-  margin-right: 10px;
-}
-
-.social-media {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.social-media a {
-  margin: 0 10px;
-  display: inline-block;
-  color: white;
-  font-size: 24px;
-}
-
-.social-media a:hover {
-  color: #00796b;
-}
 /* Responsive: Mobile-first */
 @media (max-width: 767px) {
-  body {
-    padding: 0 12px;
-  }
-  .main {
-    width: 100%;
+  main {
+    width: 90%;
     max-width: 420px;
     border-radius: 24px;
     height: auto;
     padding: 20px;
+    margin: 20px;
   }
   img {
     width: 60%;
@@ -212,7 +83,10 @@ footer {
   p {
     font-size: 14px;
   }
-  input {
+  input:not([type="checkbox"]) {
+    width: 100%;
+  }
+  footer button {
     width: 100%;
   }
   .inputs {
@@ -226,14 +100,11 @@ footer {
     text-align: center;
     font-size: 18px;
   }
-  button {
-    width: 100%;
-  }
 }
 
 /* Tablets */
 @media (min-width: 768px) {
-  .main {
+  main {
     max-width: 520px;
   }
   .inputs input {
@@ -247,9 +118,7 @@ footer {
 
 /* Desktop */
 @media (min-width: 1024px) {
-  .main {
+  main {
     max-width: 640px;
   }
 }
-
-/* end Footer */

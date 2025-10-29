@@ -19,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/otp3.css" />
   </head>
 
@@ -28,7 +29,9 @@
       <nav class="nav">
         <!-- header links -->
         <a href="../index.html" class="logo">Elegance Furnishings</a>
-        <button class="menu-toggle" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
         <ul class="nav-links">
           <li><a href="../index.html">Home</a></li>
           <li><a href="about-us.html">About Us</a></li>
@@ -40,7 +43,7 @@
     <!-- end Header -->
 
     <!-- main -->
-    <div class="main">
+    <main>
       <img src="../assets/img/otp-done.png" alt="Done" />
       <h1>Success!</h1>
       <br />
@@ -49,7 +52,7 @@
       <form action="../index.html">
         <button type="submit">Done</button>
       </form>
-    </div>
+    </main>
     <!-- end main -->
 
     <!-- Footer -->
@@ -104,16 +107,7 @@
       </div>
     </footer>
     <!-- end Footer -->
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const toggle = document.querySelector('.menu-toggle');
-        const links = document.querySelector('.nav-links');
-        if (toggle && links) {
-          toggle.addEventListener('click', function () {
-            links.classList.toggle('active');
-          });
-        }
-      });
-    </script>
+
+    <script src="../assets/js/main.js"></script>
   </body>
 </html>

@@ -9,68 +9,11 @@ body {
   justify-content: space-between;
   font-family: "Inter", sans-serif;
 }
-/* Header */
-.header {
-  background-color: #004d40;
-  padding: 20px;
-  margin-bottom: 50px;
-}
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  font-size: 24px;
-  color: white;
-  text-decoration: none;
-}
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.nav-links li a:hover {
-  text-decoration: underline;
-}
-/* Mobile Nav */
-  .menu-toggle {
-    display: block;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 0.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-  }
-  .nav-links.active { max-height: 300px; }
-  
-  @media (min-width: 768px) {
-    .menu-toggle { display: none; }
-    .nav-links { flex-direction: row; max-height: none; width: auto; margin-top: 0; }
-  }
-
-  /* end Header */
+/* end Header */
 
 /* main */
-.main {
+main {
   display: flex;
   justify-content: space-evenly;
 }
@@ -179,112 +122,13 @@ img {
 
 /* end main */
 
-/* Footer */
-
-footer {
-  background-color: #004d40; /* Change to your desired color */
-  color: white;
-  padding: 40px 20px;
-  text-align: left;
-  margin-top: 50px;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.footer-column {
-  flex: 1;
-  margin: 10px;
-  min-width: 200px;
-}
-
-.footer-column h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-column ul li {
-  margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.footer-column ul li a:hover {
-  text-decoration: underline;
-}
-
-.newsletter form {
-  display: flex;
-  flex-direction: column;
-}
-
-.newsletter input[type="email"],
-.newsletter input[type="text"] {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.newsletter button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #00796b;
-  color: white;
-  cursor: pointer;
-}
-
-.newsletter button:hover {
-  background-color: #004d40;
-}
-
-.terms {
-  display: flex;
-  align-items: center;
-}
-
-.terms input[type="checkbox"] {
-  margin-right: 10px;
-}
-
-.social-media {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.social-media a {
-  margin: 0 10px;
-  display: inline-block;
-  color: white;
-  font-size: 24px;
-}
-
-.social-media a:hover {
-  color: #00796b;
-}
 /* Responsive: Mobile-first */
 @media (max-width: 767px) {
-  body {
-    padding: 0 12px;
-  }
-  .main {
+  main {
     flex-direction: column;
     gap: 16px;
     justify-content: flex-start;
-    padding: 12px 0;
+    padding: 12px;
   }
   .payform {
     width: 100%;
@@ -297,6 +141,7 @@ footer {
   }
   form {
     gap: 12px;
+    padding: 12px;
   }
   input,
   select {
@@ -308,7 +153,7 @@ footer {
     bottom: 0;
   }
   button {
-    width: 100%;
+    width: auto;
     align-self: stretch;
   }
   .paymethod,
@@ -328,9 +173,10 @@ footer {
 
 /* Tablets */
 @media (min-width: 768px) {
-  .main {
+  main {
     flex-direction: row;
     align-items: flex-start;
+    padding: 12px;
   }
   .payform {
     width: 55%;
